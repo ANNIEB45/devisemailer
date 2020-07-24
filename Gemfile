@@ -15,13 +15,25 @@ gem 'sass-rails', '>= 6'
 gem 'webpacker', '~> 4.0'
 
 gem 'turbolinks', '~> 5'
+<<<<<<< HEAD
+
+gem 'jbuilder', '~> 2.7'
+=======
 
 gem 'jbuilder', '~> 2.7'
 
+gem 'jquery-rails'
+>>>>>>> sass
+
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
 group :development, :test do
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> sass
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
